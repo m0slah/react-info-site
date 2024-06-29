@@ -1,17 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 
-const navbar = (
-  <nav>
-    <h1>Bob's Bistro</h1>
+const page = (
+  <div>
+    <h1>React is Awesome!</h1>
+    <p>most popular javascript framework and library</p>
     <ul>
-      <li>Menu</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>composable</li>
+      <li>declaretive</li>
+      <li>component based</li>
     </ul>
-  </nav>
+  </div>
 );
 
-// ReactDOM.render(navbar, document.getElementById("root"));
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(navbar);
+ReactDOM.render(page, document.getElementById("root"));
+// ReactDOM.render(document.getElementById("root").append(JSON.stringify(page)));
