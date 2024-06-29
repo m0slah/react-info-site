@@ -3,15 +3,16 @@ import ReactDOM from "react-dom";
 
 const page = (
   <div>
-    <h1>React is Awesome!</h1>
-    <p>most popular javascript framework and library</p>
+    <img src="./react-logo.png" width="40px" />
+    <h1>Fun facts about React</h1>
     <ul>
-      <li>composable</li>
-      <li>declaretive</li>
-      <li>component based</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on GitHub</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
 );
 
 ReactDOM.render(page, document.getElementById("root"));
-// ReactDOM.render(document.getElementById("root").append(JSON.stringify(page)));
